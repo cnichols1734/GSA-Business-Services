@@ -626,6 +626,30 @@ h1, h2, h3, h4 {
   color: var(--text-mid);
 }
 
+.reviews-cta {
+  margin-top: clamp(28px, 4vw, 40px);
+}
+.google-reviews-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-main);
+  letter-spacing: 0.02em;
+  transition: border-color 0.25s, background 0.25s;
+}
+.google-reviews-btn:hover {
+  border-color: var(--text-muted);
+  background: #fff;
+  color: var(--text-main);
+}
+.google-g { flex-shrink: 0; }
+
 /* ── Location ──────────────────────────────────────────────── */
 .location {
   display: grid;
