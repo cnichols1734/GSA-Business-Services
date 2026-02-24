@@ -213,7 +213,7 @@ h1, h2, h3, h4 {
   top: 0; right: 0;
   width: min(300px, 85vw);
   height: 100dvh;
-  z-index: 200;
+  z-index: 950;
   padding: 76px 32px 40px;
   display: flex;
   flex-direction: column;
@@ -235,6 +235,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  z-index: 10;
 }
 .mobile-close span {
   position: absolute;
@@ -274,7 +275,7 @@ h1, h2, h3, h4 {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.55);
-  z-index: 190;
+  z-index: 940;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.35s ease;
